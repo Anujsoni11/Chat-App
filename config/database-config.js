@@ -4,4 +4,4 @@ const connect = async () => {
     await mongoose.connect('mongodb://localhost/chatapp');
 }; 
 
-module.export = connect;
+module.exports = connect;
